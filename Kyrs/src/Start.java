@@ -27,7 +27,7 @@ setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); //действие при наж
  JButton btEnter1 = new JButton("Адрес");
  JLabel timer = new JLabel();
  JLabel phone = new JLabel("79174838168");
- JLabel city = new JLabel("Ufa");
+ JLabel cityLiv = new JLabel("Уфа");
  //дабовление элементов 
  panel0.add(new JLabel("Введите логин"));
  panel0.add(tf3);
@@ -36,7 +36,7 @@ setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); //действие при наж
  panel0.add(btEnter);
  panel0.add(timer);
  panel0.add(phone);
- panel0.add(city);
+ panel0.add(cityLiv);
  panel0.add(btEnter1);
  setContentPane(panel0);//настройка отображения
  setSize(350, 150);
