@@ -24,6 +24,7 @@ setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); //действие при наж
  JTextField tf2 = new JTextField(16);
  JTextField tf3 = new JTextField(17);
  JButton btEnter = new JButton("Вход");
+ JButton btEnter1 = new JButton("Адрес");
  JLabel timer = new JLabel();
  //дабовление элементов 
  panel0.add(new JLabel("Введите логин"));
@@ -32,7 +33,7 @@ setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); //действие при наж
  panel0.add(tf2);
  panel0.add(btEnter);
  panel0.add(timer);
- 
+ panel0.add(btEnter1);
  setContentPane(panel0);//настройка отображения
  setSize(350, 150);
  setVisible(true);
